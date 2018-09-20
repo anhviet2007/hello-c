@@ -11,6 +11,10 @@ void hoandoi2so(int *conTroCuaC, int *conTroCuaD){
     printf("Giá trị tại vùng nhớ của con trỏ D la %d\n", *conTroCuaD);
 }
 
+int conghaiso(int a, int b){
+    return a + b;
+}
+
 int main() {
     int *conTroCuaC;
     int *conTroCuaD;
